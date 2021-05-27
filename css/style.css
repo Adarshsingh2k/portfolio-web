@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+
+body{
+    background-color: #1D2224;
+}
+
+header{
+    height: 90vh;
+    background-color: rgba(247, 233, 196, 0.973);
+    
+    padding-top: 5%;
+    text-align: center;
+    color: black;
+}
+
+.about{
+    height: auto;
+    background-color:transparent;
+    
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    margin-bottom: 85px;
+}
+
+
+.propic{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 255px;
+}
+
+.protxt
+{   font-family: 'Kaushan Script', cursive;
+    
+    font-size: 70px;
+    font-weight: 10;
+    
+}
+
+.protxt:hover{
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    font-weight: 10;
+    
+    
+}
+
+/* media query 1*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+
+.protxt
+{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.protxt:hover{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    font-weight: 10;
+    
+    
+}
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .protxt
+{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.protxt:hover{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    font-weight: 10;
+    
+    
+}
+
+    
+  }
+
+  /*media query  ends*/
+
+  
+.abthead{
+
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+}
+.about p{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.skillcrd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 50%;
+}
+
+.sklhad{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+.skillcrd li{
+    list-style: ">._ ";
+    color: rgb(8, 92, 92);
+    font-weight: 900;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .sklhad{
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5px;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .sklhad{
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+}
